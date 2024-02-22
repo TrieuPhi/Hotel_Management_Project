@@ -16,5 +16,10 @@ namespace Quan_Ly_Khach_San_2024
         {
             InitializeComponent();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
