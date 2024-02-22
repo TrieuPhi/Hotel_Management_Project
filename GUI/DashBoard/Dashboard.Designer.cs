@@ -1,4 +1,4 @@
-﻿namespace Quan_Ly_Khach_San_2024
+﻿namespace Quan_Ly_Khach_San_2024.GUI.DashBoard
 {
     partial class Dashboard
     {
@@ -82,7 +82,6 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.pnlMoving);
             this.panel1.Controls.Add(this.CustomerDetail);
             this.panel1.Controls.Add(this.btnCustomerRegister);
             this.panel1.Controls.Add(this.btnEmployee);
@@ -97,9 +96,9 @@
             // 
             this.pnlMoving.BackColor = System.Drawing.Color.White;
             this.pnlMoving.BorderRadius = 18;
-            this.pnlMoving.Location = new System.Drawing.Point(20, 110);
+            this.pnlMoving.Location = new System.Drawing.Point(34, 187);
             this.pnlMoving.Name = "pnlMoving";
-            this.pnlMoving.Size = new System.Drawing.Size(228, 7);
+            this.pnlMoving.Size = new System.Drawing.Size(228, 5);
             this.pnlMoving.TabIndex = 0;
             // 
             // CustomerDetail
@@ -197,13 +196,14 @@
             // 
             // guna2Elipse1
             // 
+            this.guna2Elipse1.BorderRadius = 30;
             this.guna2Elipse1.TargetControl = this;
             // 
             // uC_AddRoom1
             // 
             this.uC_AddRoom1.BackColor = System.Drawing.Color.White;
             this.uC_AddRoom1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.uC_AddRoom1.Location = new System.Drawing.Point(-1, -1);
+            this.uC_AddRoom1.Location = new System.Drawing.Point(0, 0);
             this.uC_AddRoom1.Name = "uC_AddRoom1";
             this.uC_AddRoom1.Size = new System.Drawing.Size(1438, 549);
             this.uC_AddRoom1.TabIndex = 0;
@@ -214,6 +214,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(112)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1462, 787);
+            this.Controls.Add(this.pnlMoving);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnMinisize);
@@ -222,6 +223,7 @@
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoard";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
