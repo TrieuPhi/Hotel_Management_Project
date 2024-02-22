@@ -10,3 +10,5 @@ D:\Project_HK2_2024\Programming_On_Windows\PROJECT\Quan_Ly_Khach_San_2024\obj\De
 D:\Project_HK2_2024\Programming_On_Windows\PROJECT\Quan_Ly_Khach_San_2024\obj\Debug\Quan_Ly_Khach_San_2024.csproj.CopyComplete
 D:\Project_HK2_2024\Programming_On_Windows\PROJECT\Quan_Ly_Khach_San_2024\obj\Debug\Quan_Ly_Khach_San_2024.exe
 D:\Project_HK2_2024\Programming_On_Windows\PROJECT\Quan_Ly_Khach_San_2024\obj\Debug\Quan_Ly_Khach_San_2024.pdb
+D:\Project_HK2_2024\Programming_On_Windows\PROJECT\Quan_Ly_Khach_San_2024\obj\Debug\Quan_Ly_Khach_San_2024.Dashboard.resources
+D:\Project_HK2_2024\Programming_On_Windows\PROJECT\Quan_Ly_Khach_San_2024\obj\Debug\Quan_Ly_Khach_San_2024.Login.resources

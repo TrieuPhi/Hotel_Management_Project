@@ -22,6 +22,9 @@ namespace Quan_Ly_Khach_San_2024
             Application.Exit();
         }
 
-       
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
