@@ -21,5 +21,7 @@ namespace Quan_Ly_Khach_San_2024
         {
             Application.Exit();
         }
+
+       
     }
 }
