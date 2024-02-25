@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Quan_Ly_Khach_San_2024.All_User_Control;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Quan_Ly_Khach_San_2024
+namespace Quan_Ly_Khach_San_2024.GUI.DashBoard
 {
     public partial class Dashboard : Form
     {
@@ -16,7 +17,6 @@ namespace Quan_Ly_Khach_San_2024
         {
             InitializeComponent();
         }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -33,11 +33,6 @@ namespace Quan_Ly_Khach_San_2024
         {
             uC_AddRoom1.Visible = false;
             btnAddRoom.PerformClick();
-        }
-
-        private void uC_AddRoom1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
