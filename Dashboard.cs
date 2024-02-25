@@ -34,5 +34,10 @@ namespace Quan_Ly_Khach_San_2024
             uC_AddRoom1.Visible = false;
             btnAddRoom.PerformClick();
         }
+
+        private void uC_AddRoom1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

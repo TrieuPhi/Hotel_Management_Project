@@ -229,7 +229,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "UC_AddRoom";
-            this.Size = new System.Drawing.Size(1918, 772);
+            this.Size = new System.Drawing.Size(1918, 786);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -39,15 +39,16 @@
             this.btnEmployee = new Guna.UI2.WinForms.Guna2Button();
             this.btncheckout = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlDashBoard = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_AddRoom1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_AddRoom();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnlDashBoard.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -65,6 +66,7 @@
             // 
             // btnMinisize
             // 
+            this.btnMinisize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinisize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnMinisize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnMinisize.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -74,13 +76,15 @@
             this.btnMinisize.ForeColor = System.Drawing.Color.White;
             this.btnMinisize.Image = ((System.Drawing.Image)(resources.GetObject("btnMinisize.Image")));
             this.btnMinisize.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnMinisize.Location = new System.Drawing.Point(1837, 1);
+            this.btnMinisize.Location = new System.Drawing.Point(1852, 1);
             this.btnMinisize.Name = "btnMinisize";
             this.btnMinisize.Size = new System.Drawing.Size(49, 44);
             this.btnMinisize.TabIndex = 1;
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.pnlMoving);
             this.panel1.Controls.Add(this.CustomerDetail);
@@ -90,7 +94,7 @@
             this.panel1.Controls.Add(this.btnAddRoom);
             this.panel1.Location = new System.Drawing.Point(12, 53);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1438, 128);
+            this.panel1.Size = new System.Drawing.Size(1918, 128);
             this.panel1.TabIndex = 2;
             // 
             // pnlMoving
@@ -186,14 +190,17 @@
             this.btnAddRoom.Text = "Thêm Phòng";
             this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
             // 
-            // panel2
+            // pnlDashBoard
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.uC_AddRoom1);
-            this.panel2.Location = new System.Drawing.Point(12, 205);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1918, 772);
-            this.panel2.TabIndex = 3;
+            this.pnlDashBoard.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlDashBoard.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlDashBoard.Controls.Add(this.uC_AddRoom1);
+            this.pnlDashBoard.Location = new System.Drawing.Point(12, 205);
+            this.pnlDashBoard.Name = "pnlDashBoard";
+            this.pnlDashBoard.Size = new System.Drawing.Size(1918, 746);
+            this.pnlDashBoard.TabIndex = 3;
             // 
             // guna2Elipse1
             // 
@@ -201,10 +208,13 @@
             // 
             // uC_AddRoom1
             // 
+            this.uC_AddRoom1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uC_AddRoom1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.uC_AddRoom1.Location = new System.Drawing.Point(-2, -2);
+            this.uC_AddRoom1.Location = new System.Drawing.Point(-2, -1);
             this.uC_AddRoom1.Name = "uC_AddRoom1";
-            this.uC_AddRoom1.Size = new System.Drawing.Size(1918, 786);
+            this.uC_AddRoom1.Size = new System.Drawing.Size(1918, 745);
             this.uC_AddRoom1.TabIndex = 0;
             // 
             // Dashboard
@@ -212,8 +222,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(112)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1942, 989);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1942, 963);
+            this.Controls.Add(this.pnlDashBoard);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnMinisize);
             this.Controls.Add(this.btnExit);
@@ -221,9 +231,9 @@
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoard";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.pnlDashBoard.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -234,7 +244,7 @@
         private Guna.UI2.WinForms.Guna2Button btnMinisize;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Button btnAddRoom;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlDashBoard;
         private Guna.UI2.WinForms.Guna2Button CustomerDetail;
         private Guna.UI2.WinForms.Guna2Button btnCustomerRegister;
         private Guna.UI2.WinForms.Guna2Button btnEmployee;
