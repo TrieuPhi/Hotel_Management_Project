@@ -40,8 +40,8 @@
             this.btncheckout = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             this.pnlDashBoard = new System.Windows.Forms.Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_AddRoom1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_AddRoom();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1.SuspendLayout();
             this.pnlDashBoard.SuspendLayout();
             this.SuspendLayout();
@@ -213,10 +213,6 @@
             this.pnlDashBoard.Size = new System.Drawing.Size(1440, 607);
             this.pnlDashBoard.TabIndex = 3;
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this;
-            // 
             // uC_AddRoom1
             // 
             this.uC_AddRoom1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -228,6 +224,11 @@
             this.uC_AddRoom1.Name = "uC_AddRoom1";
             this.uC_AddRoom1.Size = new System.Drawing.Size(1436, 603);
             this.uC_AddRoom1.TabIndex = 0;
+            this.uC_AddRoom1.Load += new System.EventHandler(this.uC_AddRoom1_Load_1);
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this;
             // 
             // Dashboard
             // 

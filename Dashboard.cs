@@ -49,5 +49,10 @@ namespace Quan_Ly_Khach_San_2024
         {
 
         }
+
+        private void uC_AddRoom1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
