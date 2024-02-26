@@ -39,5 +39,15 @@ namespace Quan_Ly_Khach_San_2024
         {
 
         }
+
+        private void btnCustomerRegister_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCustomerRegister_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

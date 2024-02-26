@@ -49,9 +49,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(14, 12);
+            this.label1.Location = new System.Drawing.Point(10, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 35);
+            this.label1.Size = new System.Drawing.Size(172, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thêm Phòng ";
             // 
@@ -59,11 +60,12 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(20, 95);
+            this.dataGridView1.Location = new System.Drawing.Point(15, 77);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1199, 639);
+            this.dataGridView1.Size = new System.Drawing.Size(899, 519);
             this.dataGridView1.TabIndex = 1;
             // 
             // label2
@@ -71,9 +73,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(1371, 95);
+            this.label2.Location = new System.Drawing.Point(1028, 77);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 27);
+            this.label2.Size = new System.Drawing.Size(90, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Số Phòng";
             // 
@@ -89,12 +92,13 @@
             this.txtRoomNumber.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtRoomNumber.ForeColor = System.Drawing.Color.Black;
             this.txtRoomNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRoomNumber.Location = new System.Drawing.Point(1369, 149);
+            this.txtRoomNumber.Location = new System.Drawing.Point(1027, 121);
+            this.txtRoomNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtRoomNumber.Name = "txtRoomNumber";
             this.txtRoomNumber.PasswordChar = '\0';
             this.txtRoomNumber.PlaceholderText = "";
             this.txtRoomNumber.SelectedText = "";
-            this.txtRoomNumber.Size = new System.Drawing.Size(415, 36);
+            this.txtRoomNumber.Size = new System.Drawing.Size(311, 29);
             this.txtRoomNumber.TabIndex = 3;
             // 
             // label3
@@ -102,9 +106,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(1371, 240);
+            this.label3.Location = new System.Drawing.Point(1028, 195);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 27);
+            this.label3.Size = new System.Drawing.Size(110, 22);
             this.label3.TabIndex = 4;
             this.label3.Text = "Loại Phòng";
             // 
@@ -121,9 +126,10 @@
             this.txtRoomType.Items.AddRange(new object[] {
             "Vip",
             "Normal"});
-            this.txtRoomType.Location = new System.Drawing.Point(1369, 289);
+            this.txtRoomType.Location = new System.Drawing.Point(1027, 235);
+            this.txtRoomType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtRoomType.Name = "txtRoomType";
-            this.txtRoomType.Size = new System.Drawing.Size(415, 36);
+            this.txtRoomType.Size = new System.Drawing.Size(312, 36);
             this.txtRoomType.TabIndex = 5;
             // 
             // txtPrice
@@ -138,12 +144,13 @@
             this.txtPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPrice.ForeColor = System.Drawing.Color.Black;
             this.txtPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrice.Location = new System.Drawing.Point(1376, 532);
+            this.txtPrice.Location = new System.Drawing.Point(1032, 432);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.PasswordChar = '\0';
             this.txtPrice.PlaceholderText = "";
             this.txtPrice.SelectedText = "";
-            this.txtPrice.Size = new System.Drawing.Size(408, 41);
+            this.txtPrice.Size = new System.Drawing.Size(306, 33);
             this.txtPrice.TabIndex = 7;
             // 
             // label4
@@ -151,9 +158,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(1371, 481);
+            this.label4.Location = new System.Drawing.Point(1028, 391);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 27);
+            this.label4.Size = new System.Drawing.Size(90, 22);
             this.label4.TabIndex = 6;
             this.label4.Text = "Giá Tiền";
             // 
@@ -172,9 +180,10 @@
             "Double",
             "Tri",
             "Triple"});
-            this.txtBedType.Location = new System.Drawing.Point(1369, 411);
+            this.txtBedType.Location = new System.Drawing.Point(1027, 334);
+            this.txtBedType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtBedType.Name = "txtBedType";
-            this.txtBedType.Size = new System.Drawing.Size(415, 36);
+            this.txtBedType.Size = new System.Drawing.Size(312, 36);
             this.txtBedType.TabIndex = 9;
             // 
             // label5
@@ -182,9 +191,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(1371, 363);
+            this.label5.Location = new System.Drawing.Point(1028, 295);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 27);
+            this.label5.Size = new System.Drawing.Size(120, 22);
             this.label5.TabIndex = 8;
             this.label5.Text = "Loại Giường";
             // 
@@ -202,9 +212,10 @@
             this.btnAddRoom.FillColor = System.Drawing.Color.White;
             this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddRoom.ForeColor = System.Drawing.Color.Black;
-            this.btnAddRoom.Location = new System.Drawing.Point(1502, 653);
+            this.btnAddRoom.Location = new System.Drawing.Point(1126, 531);
+            this.btnAddRoom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddRoom.Name = "btnAddRoom";
-            this.btnAddRoom.Size = new System.Drawing.Size(180, 45);
+            this.btnAddRoom.Size = new System.Drawing.Size(135, 37);
             this.btnAddRoom.TabIndex = 10;
             this.btnAddRoom.Text = "Thêm Phòng";
             // 
@@ -214,7 +225,7 @@
             // 
             // UC_AddRoom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Controls.Add(this.btnAddRoom);
@@ -228,8 +239,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UC_AddRoom";
-            this.Size = new System.Drawing.Size(1918, 786);
+            this.Size = new System.Drawing.Size(1438, 639);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

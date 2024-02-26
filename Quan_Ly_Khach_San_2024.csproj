@@ -55,6 +55,18 @@
     <Compile Include="All_User_Control\UC_AddRoom.Designer.cs">
       <DependentUpon>UC_AddRoom.cs</DependentUpon>
     </Compile>
+    <Compile Include="All_User_Control\UC_CheckOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="All_User_Control\UC_CheckOut.Designer.cs">
+      <DependentUpon>UC_CheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="All_User_Control\UC_Register.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="All_User_Control\UC_Register.Designer.cs">
+      <DependentUpon>UC_Register.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +95,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="All_User_Control\UC_AddRoom.resx">
       <DependentUpon>UC_AddRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All_User_Control\UC_CheckOut.resx">
+      <DependentUpon>UC_CheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All_User_Control\UC_Register.resx">
+      <DependentUpon>UC_Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
