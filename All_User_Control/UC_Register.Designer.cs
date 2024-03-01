@@ -99,7 +99,6 @@
             this.txtTen.SelectedText = "";
             this.txtTen.Size = new System.Drawing.Size(350, 50);
             this.txtTen.TabIndex = 3;
-            this.txtTen.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // lblsophong
             // 
@@ -120,7 +119,7 @@
             this.label3.Size = new System.Drawing.Size(83, 21);
             this.label3.TabIndex = 5;
             this.label3.Text = "Quốc Tịch";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+
             // 
             // txtSoDienThoai
             // 
