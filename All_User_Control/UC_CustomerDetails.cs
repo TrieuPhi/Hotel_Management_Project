@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Quan_Ly_Khach_San_2024.All_User_Control
 {
-    public partial class UC_Register : UserControl
+    public partial class UC_CustomerDetails : UserControl
     {
-        public UC_Register()
+        public UC_CustomerDetails()
         {
             InitializeComponent();
         }
 
-        private void UC_Register_Load(object sender, EventArgs e)
+        private void gvThongTinKH_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
