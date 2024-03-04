@@ -49,35 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="All_User_Control\UC_AddRoom.cs">
+    <Compile Include="All_User_Control\Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="All_User_Control\UC_AddRoom.Designer.cs">
-      <DependentUpon>UC_AddRoom.cs</DependentUpon>
-    </Compile>
-    <Compile Include="All_User_Control\UC_CheckOut.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="All_User_Control\UC_CheckOut.Designer.cs">
-      <DependentUpon>UC_CheckOut.cs</DependentUpon>
-    </Compile>
-    <Compile Include="All_User_Control\UC_CustomerDetails.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="All_User_Control\UC_CustomerDetails.Designer.cs">
-      <DependentUpon>UC_CustomerDetails.cs</DependentUpon>
-    </Compile>
-    <Compile Include="All_User_Control\UC_Employee.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="All_User_Control\UC_Employee.Designer.cs">
-      <DependentUpon>UC_Employee.cs</DependentUpon>
-    </Compile>
-    <Compile Include="All_User_Control\UC_Register.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="All_User_Control\UC_Register.Designer.cs">
-      <DependentUpon>UC_Register.cs</DependentUpon>
+    <Compile Include="All_User_Control\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -97,6 +73,12 @@
     <Compile Include="GUI\DashBoard\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,21 +87,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="All_User_Control\UC_AddRoom.resx">
-      <DependentUpon>UC_AddRoom.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="All_User_Control\UC_CheckOut.resx">
-      <DependentUpon>UC_CheckOut.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="All_User_Control\UC_CustomerDetails.resx">
-      <DependentUpon>UC_CustomerDetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="All_User_Control\UC_Employee.resx">
-      <DependentUpon>UC_Employee.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="All_User_Control\UC_Register.resx">
-      <DependentUpon>UC_Register.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DashBoard\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

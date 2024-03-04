@@ -41,7 +41,6 @@
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_AddRoom1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_AddRoom();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -188,7 +187,6 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.uC_AddRoom1);
             this.panel2.Location = new System.Drawing.Point(12, 216);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1438, 549);
@@ -201,12 +199,7 @@
             // 
             // uC_AddRoom1
             // 
-            this.uC_AddRoom1.BackColor = System.Drawing.Color.White;
-            this.uC_AddRoom1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.uC_AddRoom1.Location = new System.Drawing.Point(0, 0);
-            this.uC_AddRoom1.Name = "uC_AddRoom1";
-            this.uC_AddRoom1.Size = new System.Drawing.Size(1438, 549);
-            this.uC_AddRoom1.TabIndex = 0;
+           
             // 
             // Dashboard
             // 
@@ -243,6 +236,5 @@
         private Guna.UI2.WinForms.Guna2Button btncheckout;
         private Guna.UI2.WinForms.Guna2Panel pnlMoving;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private All_User_Control.UC_AddRoom uC_AddRoom1;
     }
 }

@@ -24,15 +24,15 @@ namespace Quan_Ly_Khach_San_2024.GUI.DashBoard
 
         private void btnAddRoom_Click(object sender, EventArgs e)
         {
-            pnlMoving.Left = btnAddRoom.Left + 50;
+            /*pnlMoving.Left = btnAddRoom.Left + 50;
             uC_AddRoom1.Visible = true;
-            uC_AddRoom1.BringToFront();
+            uC_AddRoom1.BringToFront();*/
         }
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
-            uC_AddRoom1.Visible = false;
-            btnAddRoom.PerformClick();
+            /*uC_AddRoom1.Visible = false;
+            btnAddRoom.PerformClick();*/
         }
     }
 }
