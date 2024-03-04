@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Quan_Ly_Khach_San_2024.All_User_Control
 {
-    public partial class Home : UserControl
+    public partial class UC_Home : UserControl
     {
-        public Home()
+        public UC_Home()
         {
             InitializeComponent();
         }

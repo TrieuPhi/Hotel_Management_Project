@@ -23,19 +23,15 @@ namespace Quan_Ly_Khach_San_2024
         }
         private void Dashboard_Load(object sender, EventArgs e)
         {
-          /*  uC_AddRoom1.Visible = false;
-            uC_Register1.Visible = false;
-            uC_CheckOut1.Visible = false;
-            uC_CustomerDetails1.Visible = false;
-            uC_Employee1.Visible = false;
-            btnHome.PerformClick();  */
-        }
-
-        private void btnAddRoom_Click(object sender, EventArgs e)
-        {
-           /* pnlMoving.Left = btnHome.Left;
-            uC_AddRoom1.Visible = true;
-            uC_AddRoom1.BringToFront();*/
+            /*  uC_AddRoom1.Visible = false;
+              uC_Register1.Visible = false;
+              uC_CheckOut1.Visible = false;
+              uC_CustomerDetails1.Visible = false;
+              uC_Employee1.Visible = false;
+              btnHome.PerformClick();  */
+            uC_Home1.Visible = false;
+            uC_Search1.Visible = false;    
+            btnHome.PerformClick();
         }
 
    /*     private void uC_AddRoom1_Load(object sender, EventArgs e)
@@ -43,12 +39,12 @@ namespace Quan_Ly_Khach_San_2024
 
         }*/
 
-        private void btnCustomerRegister_Click(object sender, EventArgs e)
+        /*private void btnCustomerRegister_Click(object sender, EventArgs e)
         {
-            /*pnlMoving.Left = btnCustomerRegister.Left + 10;
+            *//*pnlMoving.Left = btnCustomerRegister.Left + 10;
             uC_Register1.Visible = true;
-            uC_Register1.BringToFront();*/
-        }
+            uC_Register1.BringToFront();*//*
+        }*/
 
         private void btncheckout_Click(object sender, EventArgs e)
         {
@@ -70,5 +66,21 @@ namespace Quan_Ly_Khach_San_2024
             uC_Employee1.Visible = true;
             uC_Employee1.BringToFront();*/
         }
+
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            uC_Home1.Visible = true;
+            uC_Home1.BringToFront();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            uC_Search1.Visible = true;
+            uC_Search1.BringToFront();
+        }
+
+
+       
     }
 }
