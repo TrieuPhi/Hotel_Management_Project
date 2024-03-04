@@ -39,9 +39,9 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
-            this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
+            this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.pnlDashBoard.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
@@ -176,21 +176,6 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(100, 836);
             this.guna2GradientPanel1.TabIndex = 0;
             // 
-            // uC_Home1
-            // 
-            this.uC_Home1.Location = new System.Drawing.Point(96, 0);
-            this.uC_Home1.Name = "uC_Home1";
-            this.uC_Home1.Size = new System.Drawing.Size(1409, 836);
-            this.uC_Home1.TabIndex = 1;
-            // 
-            // uC_Search1
-            // 
-            this.uC_Search1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.uC_Search1.Location = new System.Drawing.Point(96, -1);
-            this.uC_Search1.Name = "uC_Search1";
-            this.uC_Search1.Size = new System.Drawing.Size(1457, 836);
-            this.uC_Search1.TabIndex = 0;
-            // 
             // guna2CirclePictureBox2
             // 
             this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
@@ -203,6 +188,21 @@
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox2.TabIndex = 7;
             this.guna2CirclePictureBox2.TabStop = false;
+            // 
+            // uC_Search1
+            // 
+            this.uC_Search1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.uC_Search1.Location = new System.Drawing.Point(100, 2);
+            this.uC_Search1.Name = "uC_Search1";
+            this.uC_Search1.Size = new System.Drawing.Size(1457, 836);
+            this.uC_Search1.TabIndex = 0;
+            // 
+            // uC_Home1
+            // 
+            this.uC_Home1.Location = new System.Drawing.Point(100, -1);
+            this.uC_Home1.Name = "uC_Home1";
+            this.uC_Home1.Size = new System.Drawing.Size(1409, 836);
+            this.uC_Home1.TabIndex = 1;
             // 
             // Dashboard
             // 
@@ -235,8 +235,8 @@
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private All_User_Control.UC_Home uC_Home1;
-        private All_User_Control.UC_Search uC_Search1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private All_User_Control.UC_Search uC_Search1;
+        private All_User_Control.UC_Home uC_Home1;
     }
 }
