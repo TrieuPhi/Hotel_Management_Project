@@ -46,8 +46,8 @@
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
             this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
+            this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -83,7 +83,7 @@
             this.label31.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label31.Location = new System.Drawing.Point(47, 235);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(123, 23);
+            this.label31.Size = new System.Drawing.Size(99, 19);
             this.label31.TabIndex = 10;
             this.label31.Text = "Data Engineer!";
             // 
@@ -95,7 +95,7 @@
             this.label32.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label32.Location = new System.Drawing.Point(69, 210);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(85, 25);
+            this.label32.Size = new System.Drawing.Size(66, 20);
             this.label32.TabIndex = 9;
             this.label32.Text = "TrieuPhi";
             // 
@@ -245,6 +245,7 @@
             this.btnHome.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHome.TextOffset = new System.Drawing.Point(40, 0);
             this.btnHome.UseTransparentBackground = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click_1);
             // 
             // guna2PictureBox2
             // 
@@ -302,6 +303,14 @@
             // 
             this.guna2Elipse2.TargetControl = this;
             // 
+            // uC_Home1
+            // 
+            this.uC_Home1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Home1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.uC_Home1.Name = "uC_Home1";
+            this.uC_Home1.Size = new System.Drawing.Size(1457, 836);
+            this.uC_Home1.TabIndex = 1;
+            // 
             // uC_Search1
             // 
             this.uC_Search1.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -311,17 +320,9 @@
             this.uC_Search1.Size = new System.Drawing.Size(1457, 836);
             this.uC_Search1.TabIndex = 0;
             // 
-            // uC_Home1
-            // 
-            this.uC_Home1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Home1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.uC_Home1.Name = "uC_Home1";
-            this.uC_Home1.Size = new System.Drawing.Size(1457, 836);
-            this.uC_Home1.TabIndex = 1;
-            // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1243, 711);

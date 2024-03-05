@@ -85,6 +85,12 @@
     <Compile Include="GUI\DashBoard\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
     <Compile Include="Test.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DashBoard\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test.resx">
       <DependentUpon>Test.cs</DependentUpon>

@@ -37,5 +37,17 @@ namespace Quan_Ly_Khach_San_2024
                 txtPassword.Clear();
             }
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+        Register  register = new Register();
+        this.Hide();
+        register.Show();
+        }
     }
 }

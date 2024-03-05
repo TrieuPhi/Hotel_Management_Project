@@ -32,6 +32,9 @@ namespace Quan_Ly_Khach_San_2024
             uC_Search1.BringToFront();
         }
 
+        private void btnHome_Click_1(object sender, EventArgs e)
+        {
 
+        }
     }
 }
