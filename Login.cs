@@ -27,7 +27,7 @@ namespace Quan_Ly_Khach_San_2024
             if (txtUsername.Text == "admin" && txtPassword.Text == "admin")
             {
                 lblError.Visible = false;
-                Dashboard dashboard = new Dashboard();
+                Dashboard01 dashboard = new Dashboard01();
                 this.Hide();
                 dashboard.Show();
             }

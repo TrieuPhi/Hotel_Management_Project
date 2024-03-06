@@ -11,15 +11,15 @@ using System.Windows.Forms;
 
 namespace Quan_Ly_Khach_San_2024
 {
-    public partial class Form2 : Form
+    public partial class Dashboard02 : Form
     {
-        public Form2()
+        public Dashboard02()
         {
             InitializeComponent();
-            //uC_Home1.Visible = false;
-            uC_Search1.Visible = false;
             btnHome.PerformClick();
+          
         }
+
         private void btnHome_Click(object sender, EventArgs e)
         {
             uC_Home1.Visible = true;
@@ -31,7 +31,18 @@ namespace Quan_Ly_Khach_San_2024
             uC_Search1.Visible = true;
             uC_Search1.BringToFront();
         }
+        /*  private void btnHome_Click(object sender, EventArgs e)
+{
+uC_Home1.Visible = true;
+uC_Home1.BringToFront();
 
+}
+
+private void btnSearch_Click(object sender, EventArgs e)
+{
+uC_Search1.Visible = true;
+uC_Search1.BringToFront();
+}*/
 
     }
 }

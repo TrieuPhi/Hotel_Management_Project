@@ -54,5 +54,10 @@ namespace Quan_Ly_Khach_San_2024
 
             MessageBox.Show("Searching in " + selectedDistrict + ", " + selectedCity);
         }
+
+        private void cbbDistrict_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

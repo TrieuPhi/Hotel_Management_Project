@@ -1,6 +1,6 @@
 ﻿namespace Quan_Ly_Khach_San_2024
 {
-    partial class Dashboard
+    partial class Dashboard01
     {
         /// <summary>
         /// Required designer variable.
@@ -28,49 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            this.lblUserName = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
-            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPayBill = new Guna.UI2.WinForms.Guna2Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard01));
             this.pnlDashBoard = new System.Windows.Forms.Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.btnPayBill = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
+            this.lblUserName = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
             this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.pnlDashBoard.SuspendLayout();
-            this.guna2GradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblUserName
+            // pnlDashBoard
             // 
-            this.lblUserName.AutoSize = true;
-            this.lblUserName.BackColor = System.Drawing.Color.Transparent;
-            this.lblUserName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName.Location = new System.Drawing.Point(9, 82);
-            this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(86, 20);
-            this.lblUserName.TabIndex = 6;
-            this.lblUserName.Text = "User Name";
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(15, 8);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(77, 71);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox1.TabIndex = 5;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.pnlDashBoard.BackColor = System.Drawing.Color.White;
+            this.pnlDashBoard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDashBoard.Controls.Add(this.uC_Home1);
+            this.pnlDashBoard.Controls.Add(this.uC_Search1);
+            this.pnlDashBoard.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlDashBoard.Location = new System.Drawing.Point(0, 0);
+            this.pnlDashBoard.Name = "pnlDashBoard";
+            this.pnlDashBoard.Size = new System.Drawing.Size(1554, 836);
+            this.pnlDashBoard.TabIndex = 3;
             // 
             // btnSearch
             // 
@@ -95,6 +80,39 @@
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(15, 8);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(77, 71);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox1.TabIndex = 5;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
+            // btnPayBill
+            // 
+            this.btnPayBill.BackColor = System.Drawing.Color.Transparent;
+            this.btnPayBill.BorderColor = System.Drawing.Color.Gold;
+            this.btnPayBill.BorderRadius = 12;
+            this.btnPayBill.BorderThickness = 2;
+            this.btnPayBill.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPayBill.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPayBill.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPayBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPayBill.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(90)))), ((int)(((byte)(205)))));
+            this.btnPayBill.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnPayBill.ForeColor = System.Drawing.Color.White;
+            this.btnPayBill.Image = ((System.Drawing.Image)(resources.GetObject("btnPayBill.Image")));
+            this.btnPayBill.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnPayBill.Location = new System.Drawing.Point(15, 348);
+            this.btnPayBill.Name = "btnPayBill";
+            this.btnPayBill.Size = new System.Drawing.Size(70, 70);
+            this.btnPayBill.TabIndex = 1;
+            // 
             // btnHome
             // 
             this.btnHome.BackColor = System.Drawing.Color.Transparent;
@@ -116,46 +134,29 @@
             this.btnHome.TabIndex = 0;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // btnPayBill
+            // lblUserName
             // 
-            this.btnPayBill.BackColor = System.Drawing.Color.Transparent;
-            this.btnPayBill.BorderColor = System.Drawing.Color.Gold;
-            this.btnPayBill.BorderRadius = 12;
-            this.btnPayBill.BorderThickness = 2;
-            this.btnPayBill.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPayBill.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPayBill.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPayBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPayBill.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(90)))), ((int)(((byte)(205)))));
-            this.btnPayBill.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.btnPayBill.ForeColor = System.Drawing.Color.White;
-            this.btnPayBill.Image = ((System.Drawing.Image)(resources.GetObject("btnPayBill.Image")));
-            this.btnPayBill.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnPayBill.Location = new System.Drawing.Point(15, 348);
-            this.btnPayBill.Name = "btnPayBill";
-            this.btnPayBill.Size = new System.Drawing.Size(70, 70);
-            this.btnPayBill.TabIndex = 1;
-            this.btnPayBill.Click += new System.EventHandler(this.btncheckout_Click);
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.BackColor = System.Drawing.Color.Transparent;
+            this.lblUserName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName.Location = new System.Drawing.Point(9, 82);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(86, 20);
+            this.lblUserName.TabIndex = 6;
+            this.lblUserName.Text = "User Name";
             // 
-            // pnlDashBoard
+            // guna2CirclePictureBox2
             // 
-            this.pnlDashBoard.BackColor = System.Drawing.Color.White;
-            this.pnlDashBoard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDashBoard.Controls.Add(this.uC_Home1);
-            this.pnlDashBoard.Controls.Add(this.uC_Search1);
-            this.pnlDashBoard.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlDashBoard.Location = new System.Drawing.Point(0, 0);
-            this.pnlDashBoard.Name = "pnlDashBoard";
-            this.pnlDashBoard.Size = new System.Drawing.Size(1554, 836);
-            this.pnlDashBoard.TabIndex = 3;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this.pnlDashBoard;
+            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(15, 791);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(61, 41);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox2.TabIndex = 7;
+            this.guna2CirclePictureBox2.TabStop = false;
             // 
             // guna2GradientPanel1
             // 
@@ -176,32 +177,19 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(100, 836);
             this.guna2GradientPanel1.TabIndex = 0;
             // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
-            this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(15, 791);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(61, 41);
-            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox2.TabIndex = 7;
-            this.guna2CirclePictureBox2.TabStop = false;
-            // 
             // uC_Search1
             // 
             this.uC_Search1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.uC_Search1.Location = new System.Drawing.Point(100, 2);
+            this.uC_Search1.Location = new System.Drawing.Point(98, -1);
             this.uC_Search1.Name = "uC_Search1";
             this.uC_Search1.Size = new System.Drawing.Size(1457, 836);
             this.uC_Search1.TabIndex = 0;
             // 
             // uC_Home1
             // 
-            this.uC_Home1.Location = new System.Drawing.Point(100, -1);
+            this.uC_Home1.Location = new System.Drawing.Point(98, -1);
             this.uC_Home1.Name = "uC_Home1";
-            this.uC_Home1.Size = new System.Drawing.Size(1409, 836);
+            this.uC_Home1.Size = new System.Drawing.Size(1457, 836);
             this.uC_Home1.TabIndex = 1;
             // 
             // Dashboard
@@ -216,27 +204,25 @@
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoard";
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.pnlDashBoard.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Button btnHome;
         private System.Windows.Forms.Panel pnlDashBoard;
-        private Guna.UI2.WinForms.Guna2Button btnSearch;
-        private Guna.UI2.WinForms.Guna2Button btnPayBill;
-        private System.Windows.Forms.Label lblUserName;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
-        private All_User_Control.UC_Search uC_Search1;
         private All_User_Control.UC_Home uC_Home1;
+        private All_User_Control.UC_Search uC_Search1;
+        private Guna.UI2.WinForms.Guna2Button btnSearch;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2Button btnPayBill;
+        private Guna.UI2.WinForms.Guna2Button btnHome;
+        private System.Windows.Forms.Label lblUserName;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
     }
 }

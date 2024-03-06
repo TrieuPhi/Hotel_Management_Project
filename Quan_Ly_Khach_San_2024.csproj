@@ -61,17 +61,23 @@
     <Compile Include="All_User_Control\UC_Search.Designer.cs">
       <DependentUpon>UC_Search.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard.cs">
+    <Compile Include="BookRoom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard.Designer.cs">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <Compile Include="BookRoom.Designer.cs">
+      <DependentUpon>BookRoom.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Dashboard01.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Dashboard01.Designer.cs">
+      <DependentUpon>Dashboard01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard02.Designer.cs">
+      <DependentUpon>Dashboard02.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\DashBoard\Dashboard.cs">
       <SubType>Form</SubType>
@@ -105,11 +111,11 @@
     <EmbeddedResource Include="All_User_Control\UC_Search.resx">
       <DependentUpon>UC_Search.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard.resx">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboard01.resx">
+      <DependentUpon>Dashboard01.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboard02.resx">
+      <DependentUpon>Dashboard02.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DashBoard\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
