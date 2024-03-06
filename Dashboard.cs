@@ -80,7 +80,14 @@ namespace Quan_Ly_Khach_San_2024
             uC_Search1.BringToFront();
         }
 
+        private void uC_Home1_Load(object sender, EventArgs e)
+        {
 
-       
+        }
+
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

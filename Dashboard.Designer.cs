@@ -36,12 +36,12 @@
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.btnPayBill = new Guna.UI2.WinForms.Guna2Button();
             this.pnlDashBoard = new System.Windows.Forms.Panel();
+            this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
+            this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
-            this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.pnlDashBoard.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
@@ -53,9 +53,10 @@
             this.lblUserName.AutoSize = true;
             this.lblUserName.BackColor = System.Drawing.Color.Transparent;
             this.lblUserName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName.Location = new System.Drawing.Point(9, 82);
+            this.lblUserName.Location = new System.Drawing.Point(7, 67);
+            this.lblUserName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(86, 20);
+            this.lblUserName.Size = new System.Drawing.Size(67, 15);
             this.lblUserName.TabIndex = 6;
             this.lblUserName.Text = "User Name";
             // 
@@ -64,10 +65,11 @@
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(15, 8);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(11, 6);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(77, 71);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(58, 58);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 5;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -89,9 +91,10 @@
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
             this.btnSearch.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnSearch.Location = new System.Drawing.Point(15, 243);
+            this.btnSearch.Location = new System.Drawing.Point(11, 197);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(2);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(70, 70);
+            this.btnSearch.Size = new System.Drawing.Size(52, 57);
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
@@ -110,9 +113,10 @@
             this.btnHome.ForeColor = System.Drawing.Color.White;
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnHome.Location = new System.Drawing.Point(15, 131);
+            this.btnHome.Location = new System.Drawing.Point(11, 106);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(2);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(70, 70);
+            this.btnHome.Size = new System.Drawing.Size(52, 57);
             this.btnHome.TabIndex = 0;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
@@ -131,9 +135,10 @@
             this.btnPayBill.ForeColor = System.Drawing.Color.White;
             this.btnPayBill.Image = ((System.Drawing.Image)(resources.GetObject("btnPayBill.Image")));
             this.btnPayBill.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnPayBill.Location = new System.Drawing.Point(15, 348);
+            this.btnPayBill.Location = new System.Drawing.Point(11, 283);
+            this.btnPayBill.Margin = new System.Windows.Forms.Padding(2);
             this.btnPayBill.Name = "btnPayBill";
-            this.btnPayBill.Size = new System.Drawing.Size(70, 70);
+            this.btnPayBill.Size = new System.Drawing.Size(52, 57);
             this.btnPayBill.TabIndex = 1;
             this.btnPayBill.Click += new System.EventHandler(this.btncheckout_Click);
             // 
@@ -145,9 +150,28 @@
             this.pnlDashBoard.Controls.Add(this.uC_Search1);
             this.pnlDashBoard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDashBoard.Location = new System.Drawing.Point(0, 0);
+            this.pnlDashBoard.Margin = new System.Windows.Forms.Padding(2);
             this.pnlDashBoard.Name = "pnlDashBoard";
-            this.pnlDashBoard.Size = new System.Drawing.Size(1554, 836);
+            this.pnlDashBoard.Size = new System.Drawing.Size(1040, 640);
             this.pnlDashBoard.TabIndex = 3;
+            // 
+            // uC_Home1
+            // 
+            this.uC_Home1.Location = new System.Drawing.Point(75, -1);
+            this.uC_Home1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.uC_Home1.Name = "uC_Home1";
+            this.uC_Home1.Size = new System.Drawing.Size(1057, 679);
+            this.uC_Home1.TabIndex = 1;
+            this.uC_Home1.Load += new System.EventHandler(this.uC_Home1_Load);
+            // 
+            // uC_Search1
+            // 
+            this.uC_Search1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.uC_Search1.Location = new System.Drawing.Point(75, 2);
+            this.uC_Search1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.uC_Search1.Name = "uC_Search1";
+            this.uC_Search1.Size = new System.Drawing.Size(1093, 679);
+            this.uC_Search1.TabIndex = 0;
             // 
             // guna2Elipse1
             // 
@@ -172,47 +196,36 @@
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(68)))), ((int)(((byte)(135)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(89)))), ((int)(((byte)(121)))));
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(100, 836);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(75, 640);
             this.guna2GradientPanel1.TabIndex = 0;
+            this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
             // 
             // guna2CirclePictureBox2
             // 
             this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
             this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(15, 791);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(11, 643);
+            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(61, 41);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(46, 33);
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox2.TabIndex = 7;
             this.guna2CirclePictureBox2.TabStop = false;
             // 
-            // uC_Search1
-            // 
-            this.uC_Search1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.uC_Search1.Location = new System.Drawing.Point(100, 2);
-            this.uC_Search1.Name = "uC_Search1";
-            this.uC_Search1.Size = new System.Drawing.Size(1457, 836);
-            this.uC_Search1.TabIndex = 0;
-            // 
-            // uC_Home1
-            // 
-            this.uC_Home1.Location = new System.Drawing.Point(100, -1);
-            this.uC_Home1.Name = "uC_Home1";
-            this.uC_Home1.Size = new System.Drawing.Size(1409, 836);
-            this.uC_Home1.TabIndex = 1;
-            // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1554, 836);
+            this.ClientSize = new System.Drawing.Size(1040, 640);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.pnlDashBoard);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoard";

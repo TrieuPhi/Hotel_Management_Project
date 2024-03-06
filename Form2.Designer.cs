@@ -44,10 +44,10 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
             this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -295,14 +295,6 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1033, 711);
             this.guna2GradientPanel1.TabIndex = 4;
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this;
-            // 
             // uC_Home1
             // 
             this.uC_Home1.Location = new System.Drawing.Point(0, 0);
@@ -310,6 +302,7 @@
             this.uC_Home1.Name = "uC_Home1";
             this.uC_Home1.Size = new System.Drawing.Size(1457, 836);
             this.uC_Home1.TabIndex = 1;
+            this.uC_Home1.Load += new System.EventHandler(this.uC_Home1_Load);
             // 
             // uC_Search1
             // 
@@ -319,6 +312,14 @@
             this.uC_Search1.Name = "uC_Search1";
             this.uC_Search1.Size = new System.Drawing.Size(1457, 836);
             this.uC_Search1.TabIndex = 0;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this;
             // 
             // Form2
             // 

@@ -34,6 +34,13 @@ namespace Quan_Ly_Khach_San_2024
 
         private void btnHome_Click_1(object sender, EventArgs e)
         {
+            Invoice register = new Invoice();
+            this.Hide();
+            register.Show();
+        }
+
+        private void uC_Home1_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -53,3 +53,4 @@ D:\Year3\HK2\Win\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.cspro
 D:\Year3\HK2\Win\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.csproj.CopyComplete
 D:\Year3\HK2\Win\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.exe
 D:\Year3\HK2\Win\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.pdb
+D:\Year3\HK2\Win\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.Invoice.resources
