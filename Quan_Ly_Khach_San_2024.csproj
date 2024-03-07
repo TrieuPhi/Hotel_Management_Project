@@ -67,6 +67,12 @@
     <Compile Include="All_User_Control\UC_Search.Designer.cs">
       <DependentUpon>UC_Search.cs</DependentUpon>
     </Compile>
+    <Compile Include="All_User_Control\UC_Service.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="All_User_Control\UC_Service.Designer.cs">
+      <DependentUpon>UC_Service.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="All_User_Control\UC_Search.resx">
       <DependentUpon>UC_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All_User_Control\UC_Service.resx">
+      <DependentUpon>UC_Service.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
