@@ -50,8 +50,8 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnAddRoom = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnBookRoom = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -304,47 +304,49 @@
             this.guna2GradientButton1.TabIndex = 15;
             this.guna2GradientButton1.Text = "Add Hotel";
             // 
-            // guna2GradientButton2
+            // btnAddRoom
             // 
-            this.guna2GradientButton2.BorderRadius = 18;
-            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton2.FillColor = System.Drawing.Color.Purple;
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(1191, 715);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(136, 54);
-            this.guna2GradientButton2.TabIndex = 16;
-            this.guna2GradientButton2.Text = "Add Room";
+            this.btnAddRoom.BorderRadius = 18;
+            this.btnAddRoom.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddRoom.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddRoom.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddRoom.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddRoom.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAddRoom.FillColor = System.Drawing.Color.Purple;
+            this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddRoom.ForeColor = System.Drawing.Color.White;
+            this.btnAddRoom.Location = new System.Drawing.Point(1191, 715);
+            this.btnAddRoom.Name = "btnAddRoom";
+            this.btnAddRoom.Size = new System.Drawing.Size(136, 54);
+            this.btnAddRoom.TabIndex = 16;
+            this.btnAddRoom.Text = "Add Room";
+            this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
             // 
-            // guna2GradientButton3
+            // btnBookRoom
             // 
-            this.guna2GradientButton3.BorderRadius = 18;
-            this.guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton3.FillColor = System.Drawing.Color.Purple;
-            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(898, 715);
-            this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.Size = new System.Drawing.Size(136, 54);
-            this.guna2GradientButton3.TabIndex = 17;
-            this.guna2GradientButton3.Text = "Book Room";
+            this.btnBookRoom.BorderRadius = 18;
+            this.btnBookRoom.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBookRoom.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBookRoom.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBookRoom.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBookRoom.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBookRoom.FillColor = System.Drawing.Color.Purple;
+            this.btnBookRoom.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBookRoom.ForeColor = System.Drawing.Color.White;
+            this.btnBookRoom.Location = new System.Drawing.Point(898, 715);
+            this.btnBookRoom.Name = "btnBookRoom";
+            this.btnBookRoom.Size = new System.Drawing.Size(136, 54);
+            this.btnBookRoom.TabIndex = 17;
+            this.btnBookRoom.Text = "Book Room";
+            this.btnBookRoom.Click += new System.EventHandler(this.btnBookRoom_Click);
             // 
             // UC_Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.guna2GradientButton3);
-            this.Controls.Add(this.guna2GradientButton2);
+            this.Controls.Add(this.btnBookRoom);
+            this.Controls.Add(this.btnAddRoom);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2DataGridView2);
             this.Controls.Add(this.guna2DataGridView1);
@@ -377,7 +379,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
+        private Guna.UI2.WinForms.Guna2GradientButton btnAddRoom;
+        private Guna.UI2.WinForms.Guna2GradientButton btnBookRoom;
     }
 }

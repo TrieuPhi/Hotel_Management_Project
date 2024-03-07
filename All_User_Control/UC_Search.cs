@@ -64,5 +64,16 @@ namespace Quan_Ly_Khach_San_2024.All_User_Control
         {
 
         }
+
+        private void btnAddRoom_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnBookRoom_Click(object sender, EventArgs e)
+        {
+            BookRoom br = new BookRoom();
+            br.Show();
+        }
     }
 }
