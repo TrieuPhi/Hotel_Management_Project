@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.PanelRegister = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.cbOther = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.cbFemale = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.cbMale = new Guna.UI2.WinForms.Guna2CheckBox();
             this.txtConfirmPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
@@ -53,15 +50,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.cbbGender = new Guna.UI2.WinForms.Guna2ComboBox();
             this.PanelRegister.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelRegister
             // 
             this.PanelRegister.BackColor = System.Drawing.Color.White;
-            this.PanelRegister.Controls.Add(this.cbOther);
-            this.PanelRegister.Controls.Add(this.cbFemale);
-            this.PanelRegister.Controls.Add(this.cbMale);
+            this.PanelRegister.Controls.Add(this.cbbGender);
             this.PanelRegister.Controls.Add(this.txtConfirmPass);
             this.PanelRegister.Controls.Add(this.txtUsername);
             this.PanelRegister.Controls.Add(this.txtPassword);
@@ -87,60 +83,6 @@
             this.PanelRegister.Name = "PanelRegister";
             this.PanelRegister.Size = new System.Drawing.Size(470, 570);
             this.PanelRegister.TabIndex = 0;
-            // 
-            // cbOther
-            // 
-            this.cbOther.AutoSize = true;
-            this.cbOther.CheckedState.BorderColor = System.Drawing.Color.Red;
-            this.cbOther.CheckedState.BorderRadius = 0;
-            this.cbOther.CheckedState.BorderThickness = 0;
-            this.cbOther.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbOther.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.cbOther.Location = new System.Drawing.Point(389, 180);
-            this.cbOther.Name = "cbOther";
-            this.cbOther.Size = new System.Drawing.Size(58, 20);
-            this.cbOther.TabIndex = 55;
-            this.cbOther.Text = "Other";
-            this.cbOther.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.cbOther.UncheckedState.BorderRadius = 0;
-            this.cbOther.UncheckedState.BorderThickness = 0;
-            this.cbOther.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            // 
-            // cbFemale
-            // 
-            this.cbFemale.AutoSize = true;
-            this.cbFemale.CheckedState.BorderColor = System.Drawing.Color.Fuchsia;
-            this.cbFemale.CheckedState.BorderRadius = 0;
-            this.cbFemale.CheckedState.BorderThickness = 0;
-            this.cbFemale.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.cbFemale.Location = new System.Drawing.Point(311, 180);
-            this.cbFemale.Name = "cbFemale";
-            this.cbFemale.Size = new System.Drawing.Size(72, 20);
-            this.cbFemale.TabIndex = 54;
-            this.cbFemale.Text = "Female";
-            this.cbFemale.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.cbFemale.UncheckedState.BorderRadius = 0;
-            this.cbFemale.UncheckedState.BorderThickness = 0;
-            this.cbFemale.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            // 
-            // cbMale
-            // 
-            this.cbMale.AutoSize = true;
-            this.cbMale.CheckedState.BorderColor = System.Drawing.Color.Green;
-            this.cbMale.CheckedState.BorderRadius = 0;
-            this.cbMale.CheckedState.BorderThickness = 0;
-            this.cbMale.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.cbMale.Location = new System.Drawing.Point(248, 180);
-            this.cbMale.Name = "cbMale";
-            this.cbMale.Size = new System.Drawing.Size(56, 20);
-            this.cbMale.TabIndex = 53;
-            this.cbMale.Text = "Male";
-            this.cbMale.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.cbMale.UncheckedState.BorderRadius = 0;
-            this.cbMale.UncheckedState.BorderThickness = 0;
-            this.cbMale.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             // 
             // txtConfirmPass
             // 
@@ -470,6 +412,27 @@
             this.label3.TabIndex = 28;
             this.label3.Text = "CREATE AN ACCOUNT\r\n";
             // 
+            // cbbGender
+            // 
+            this.cbbGender.BackColor = System.Drawing.Color.Transparent;
+            this.cbbGender.BorderColor = System.Drawing.Color.Navy;
+            this.cbbGender.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbbGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbGender.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbbGender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbbGender.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbbGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbbGender.ItemHeight = 30;
+            this.cbbGender.Items.AddRange(new object[] {
+            "Male",
+            "Female",
+            "Other"});
+            this.cbbGender.Location = new System.Drawing.Point(247, 166);
+            this.cbbGender.Margin = new System.Windows.Forms.Padding(2);
+            this.cbbGender.Name = "cbbGender";
+            this.cbbGender.Size = new System.Drawing.Size(200, 36);
+            this.cbbGender.TabIndex = 56;
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -510,8 +473,6 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker txtDob;
         private Guna.UI2.WinForms.Guna2TextBox txtAddress;
         private Guna.UI2.WinForms.Guna2TextBox txtConfirmPass;
-        private Guna.UI2.WinForms.Guna2CheckBox cbOther;
-        private Guna.UI2.WinForms.Guna2CheckBox cbFemale;
-        private Guna.UI2.WinForms.Guna2CheckBox cbMale;
+        private Guna.UI2.WinForms.Guna2ComboBox cbbGender;
     }
 }
