@@ -1542,9 +1542,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 12;
             this.pictureBox4.TabStop = false;
-            // 
-            // guna2TextBox2
-            // 
+
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox2.DefaultText = "";
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -1586,6 +1584,7 @@
             // 
             // guna2TextBox5
             // 
+
             this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox5.DefaultText = "";
             this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -1595,12 +1594,15 @@
             this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+
             this.guna2TextBox5.Location = new System.Drawing.Point(711, 579);
             this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(4);
+
             this.guna2TextBox5.Name = "guna2TextBox5";
             this.guna2TextBox5.PasswordChar = '\0';
             this.guna2TextBox5.PlaceholderText = "";
             this.guna2TextBox5.SelectedText = "";
+
             this.guna2TextBox5.Size = new System.Drawing.Size(191, 44);
             this.guna2TextBox5.TabIndex = 18;
             // 
@@ -1649,6 +1651,7 @@
             this.guna2DateTimePicker2.Size = new System.Drawing.Size(200, 36);
             this.guna2DateTimePicker2.TabIndex = 20;
             this.guna2DateTimePicker2.Value = new System.DateTime(2024, 3, 8, 9, 55, 45, 643);
+
             // 
             // BookRoom
             // 
@@ -1656,10 +1659,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1372, 788);
             this.Controls.Add(this.guna2TabControl1);
+
+
+            
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "BookRoom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BookRoom";
+
             this.guna2TabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
@@ -1819,6 +1826,7 @@
         private Guna.UI2.WinForms.Guna2Button btnFood;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
+
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -1829,5 +1837,6 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+
     }
 }

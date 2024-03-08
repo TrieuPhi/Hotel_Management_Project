@@ -69,6 +69,7 @@
             this.guna2GradientButton1.Text = "Add Hotel";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
+
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(154)))), ((int)(((byte)(220)))));
@@ -239,12 +240,14 @@
             this.datagridviewSearch.ThemeStyle.RowsStyle.Height = 24;
             this.datagridviewSearch.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.datagridviewSearch.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+
             // 
             // UC_Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.datagridviewSearch);
@@ -272,5 +275,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2DataGridView datagridviewSearch;
+
     }
 }
