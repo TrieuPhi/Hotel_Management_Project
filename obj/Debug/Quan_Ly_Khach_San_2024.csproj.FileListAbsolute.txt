@@ -84,3 +84,5 @@ D:\NAM_3_HK2\4_LT_Windows\DoAnCuoiKy\bill\Hotel_Management_Project\obj\Debug\Qua
 D:\NAM_3_HK2\4_LT_Windows\DoAnCuoiKy\bill\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.exe
 D:\NAM_3_HK2\4_LT_Windows\DoAnCuoiKy\bill\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.pdb
 D:\NAM_3_HK2\4_LT_Windows\DoAnCuoiKy\bill\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.BookRoom.resources
+D:\Project_HK2_2024\Programming_On_Windows\PROJECT\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.BookRoom.resources
+D:\Project_HK2_2024\Programming_On_Windows\PROJECT\Hotel_Management_Project\obj\Debug\Quan_Ly_Khach_San_2024.DetailsHotel.resources

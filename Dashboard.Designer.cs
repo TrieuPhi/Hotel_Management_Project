@@ -31,14 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
+            this.uC_Statistical1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Statistical();
+            this.uC_Profile1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Profile();
+            this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnHelp = new Guna.UI2.WinForms.Guna2Button();
             this.btnProfile = new Guna.UI2.WinForms.Guna2Button();
             this.btnStatistical = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -48,10 +50,7 @@
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.uC_Profile1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Profile();
-            this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
-            this.uC_Statistical1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Statistical();
-            this.uC_Home1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Home();
+            this.btnHelp = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
@@ -84,6 +83,40 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1248, 711);
             this.guna2GradientPanel1.TabIndex = 4;
             // 
+            // uC_Home1
+            // 
+            this.uC_Home1.Location = new System.Drawing.Point(203, 30);
+            this.uC_Home1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.uC_Home1.Name = "uC_Home1";
+            this.uC_Home1.Size = new System.Drawing.Size(1457, 836);
+            this.uC_Home1.TabIndex = 3;
+            // 
+            // uC_Statistical1
+            // 
+            this.uC_Statistical1.Location = new System.Drawing.Point(203, 30);
+            this.uC_Statistical1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.uC_Statistical1.Name = "uC_Statistical1";
+            this.uC_Statistical1.Size = new System.Drawing.Size(1457, 836);
+            this.uC_Statistical1.TabIndex = 2;
+            // 
+            // uC_Profile1
+            // 
+            this.uC_Profile1.BackColor = System.Drawing.Color.White;
+            this.uC_Profile1.Location = new System.Drawing.Point(203, 30);
+            this.uC_Profile1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uC_Profile1.Name = "uC_Profile1";
+            this.uC_Profile1.Size = new System.Drawing.Size(1457, 836);
+            this.uC_Profile1.TabIndex = 1;
+            // 
+            // uC_Search1
+            // 
+            this.uC_Search1.BackColor = System.Drawing.Color.White;
+            this.uC_Search1.Location = new System.Drawing.Point(206, 30);
+            this.uC_Search1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.uC_Search1.Name = "uC_Search1";
+            this.uC_Search1.Size = new System.Drawing.Size(1457, 836);
+            this.uC_Search1.TabIndex = 0;
+            // 
             // guna2GradientPanel2
             // 
             this.guna2GradientPanel2.Controls.Add(this.label31);
@@ -92,7 +125,6 @@
             this.guna2GradientPanel2.Controls.Add(this.btnHelp);
             this.guna2GradientPanel2.Controls.Add(this.btnProfile);
             this.guna2GradientPanel2.Controls.Add(this.btnStatistical);
-            this.guna2GradientPanel2.Controls.Add(this.guna2Button4);
             this.guna2GradientPanel2.Controls.Add(this.btnSearch);
             this.guna2GradientPanel2.Controls.Add(this.btnHome);
             this.guna2GradientPanel2.Controls.Add(this.guna2PictureBox2);
@@ -146,33 +178,6 @@
             this.guna2Button7.Text = "Log Out";
             this.guna2Button7.UseTransparentBackground = true;
             // 
-            // btnHelp
-            // 
-            this.btnHelp.Animated = true;
-            this.btnHelp.BackColor = System.Drawing.Color.Transparent;
-            this.btnHelp.BorderColor = System.Drawing.Color.White;
-            this.btnHelp.BorderRadius = 8;
-            this.btnHelp.BorderThickness = 2;
-            this.btnHelp.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnHelp.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage")));
-            this.btnHelp.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage")));
-            this.btnHelp.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.btnHelp.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnHelp.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
-            this.btnHelp.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.btnHelp.ForeColor = System.Drawing.Color.White;
-            this.btnHelp.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnHelp.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelp.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
-            this.btnHelp.Location = new System.Drawing.Point(7, 511);
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(190, 45);
-            this.btnHelp.TabIndex = 18;
-            this.btnHelp.Text = "Help";
-            this.btnHelp.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnHelp.TextOffset = new System.Drawing.Point(40, 0);
-            this.btnHelp.UseTransparentBackground = true;
-            // 
             // btnProfile
             // 
             this.btnProfile.Animated = true;
@@ -191,7 +196,7 @@
             this.btnProfile.HoverState.FillColor = System.Drawing.Color.White;
             this.btnProfile.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProfile.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
-            this.btnProfile.Location = new System.Drawing.Point(7, 462);
+            this.btnProfile.Location = new System.Drawing.Point(7, 366);
             this.btnProfile.Name = "btnProfile";
             this.btnProfile.Size = new System.Drawing.Size(190, 45);
             this.btnProfile.TabIndex = 17;
@@ -209,9 +214,9 @@
             this.btnStatistical.BorderRadius = 8;
             this.btnStatistical.BorderThickness = 2;
             this.btnStatistical.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnStatistical.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage1")));
-            this.btnStatistical.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage1")));
-            this.btnStatistical.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnStatistical.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage2")));
+            this.btnStatistical.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage2")));
+            this.btnStatistical.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
             this.btnStatistical.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnStatistical.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
             this.btnStatistical.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
@@ -219,7 +224,7 @@
             this.btnStatistical.HoverState.FillColor = System.Drawing.Color.White;
             this.btnStatistical.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStatistical.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
-            this.btnStatistical.Location = new System.Drawing.Point(7, 413);
+            this.btnStatistical.Location = new System.Drawing.Point(7, 417);
             this.btnStatistical.Name = "btnStatistical";
             this.btnStatistical.Size = new System.Drawing.Size(190, 45);
             this.btnStatistical.TabIndex = 16;
@@ -229,33 +234,6 @@
             this.btnStatistical.UseTransparentBackground = true;
             this.btnStatistical.Click += new System.EventHandler(this.btnStatistical_Click);
             // 
-            // guna2Button4
-            // 
-            this.guna2Button4.Animated = true;
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderColor = System.Drawing.Color.White;
-            this.guna2Button4.BorderRadius = 8;
-            this.guna2Button4.BorderThickness = 2;
-            this.guna2Button4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button4.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage3")));
-            this.guna2Button4.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage3")));
-            this.guna2Button4.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            this.guna2Button4.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
-            this.guna2Button4.Location = new System.Drawing.Point(7, 364);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(190, 45);
-            this.guna2Button4.TabIndex = 15;
-            this.guna2Button4.Text = "Pay";
-            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.TextOffset = new System.Drawing.Point(40, 0);
-            this.guna2Button4.UseTransparentBackground = true;
-            // 
             // btnSearch
             // 
             this.btnSearch.Animated = true;
@@ -264,9 +242,9 @@
             this.btnSearch.BorderRadius = 8;
             this.btnSearch.BorderThickness = 2;
             this.btnSearch.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnSearch.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage4")));
-            this.btnSearch.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage4")));
-            this.btnSearch.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            this.btnSearch.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage3")));
+            this.btnSearch.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage3")));
+            this.btnSearch.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.btnSearch.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
             this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
@@ -292,9 +270,9 @@
             this.btnHome.BorderRadius = 8;
             this.btnHome.BorderThickness = 2;
             this.btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnHome.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage5")));
-            this.btnHome.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage5")));
-            this.btnHome.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            this.btnHome.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage4")));
+            this.btnHome.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage4")));
+            this.btnHome.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.btnHome.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
             this.btnHome.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
@@ -398,39 +376,32 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(36, 22);
             this.guna2ControlBox1.TabIndex = 0;
             // 
-            // uC_Profile1
+            // btnHelp
             // 
-            this.uC_Profile1.BackColor = System.Drawing.Color.White;
-            this.uC_Profile1.Location = new System.Drawing.Point(203, 30);
-            this.uC_Profile1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uC_Profile1.Name = "uC_Profile1";
-            this.uC_Profile1.Size = new System.Drawing.Size(1457, 836);
-            this.uC_Profile1.TabIndex = 1;
-            // 
-            // uC_Search1
-            // 
-            this.uC_Search1.BackColor = System.Drawing.Color.White;
-            this.uC_Search1.Location = new System.Drawing.Point(206, 30);
-            this.uC_Search1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.uC_Search1.Name = "uC_Search1";
-            this.uC_Search1.Size = new System.Drawing.Size(1457, 836);
-            this.uC_Search1.TabIndex = 0;
-            // 
-            // uC_Statistical1
-            // 
-            this.uC_Statistical1.Location = new System.Drawing.Point(203, 30);
-            this.uC_Statistical1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.uC_Statistical1.Name = "uC_Statistical1";
-            this.uC_Statistical1.Size = new System.Drawing.Size(1457, 836);
-            this.uC_Statistical1.TabIndex = 2;
-            // 
-            // uC_Home1
-            // 
-            this.uC_Home1.Location = new System.Drawing.Point(203, 30);
-            this.uC_Home1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.uC_Home1.Name = "uC_Home1";
-            this.uC_Home1.Size = new System.Drawing.Size(1457, 836);
-            this.uC_Home1.TabIndex = 3;
+            this.btnHelp.Animated = true;
+            this.btnHelp.BackColor = System.Drawing.Color.Transparent;
+            this.btnHelp.BorderColor = System.Drawing.Color.White;
+            this.btnHelp.BorderRadius = 8;
+            this.btnHelp.BorderThickness = 2;
+            this.btnHelp.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnHelp.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage")));
+            this.btnHelp.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage")));
+            this.btnHelp.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnHelp.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnHelp.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
+            this.btnHelp.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btnHelp.ForeColor = System.Drawing.Color.White;
+            this.btnHelp.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnHelp.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHelp.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
+            this.btnHelp.Location = new System.Drawing.Point(6, 468);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(190, 45);
+            this.btnHelp.TabIndex = 18;
+            this.btnHelp.Text = "Help";
+            this.btnHelp.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnHelp.TextOffset = new System.Drawing.Point(40, 0);
+            this.btnHelp.UseTransparentBackground = true;
             // 
             // Dashboard
             // 
@@ -467,10 +438,8 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private Guna.UI2.WinForms.Guna2Button btnHelp;
         private Guna.UI2.WinForms.Guna2Button btnProfile;
         private Guna.UI2.WinForms.Guna2Button btnStatistical;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button btnSearch;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
@@ -484,5 +453,6 @@
         private All_User_Control.UC_Profile uC_Profile1;
         private All_User_Control.UC_Home uC_Home1;
         private All_User_Control.UC_Statistical uC_Statistical1;
+        private Guna.UI2.WinForms.Guna2Button btnHelp;
     }
 }

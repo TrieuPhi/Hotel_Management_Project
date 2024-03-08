@@ -25,6 +25,21 @@ namespace Quan_Ly_Khach_San_2024.All_User_Control
             {
                 cbbCity.Items.Add(city);
             }
+            // Tạo một DataTable để lưu trữ dữ liệu của các khách sạn
+            DataTable hotelTable = new DataTable();
+            hotelTable.Columns.Add("ID", typeof(int));
+            hotelTable.Columns.Add("Tên khách sạn", typeof(string));
+            hotelTable.Columns.Add("Địa chỉ", typeof(string));
+            hotelTable.Columns.Add("Đánh giá ", typeof(string));
+            // Thêm dữ liệu mẫu
+            hotelTable.Rows.Add(1, "Tên Khách Sạn", "Địa chỉ", "Đánh Giá");
+            hotelTable.Rows.Add(1, "Khách sạn A", "123 Đường ABC, Thành phố XYZ","5 sao");
+            hotelTable.Rows.Add(2, "Khách sạn B", "456 Đường DEF, Thành phố XYZ","3 sao");
+            // Nếu dữ liệu thực tế được lấy từ cơ sở dữ liệu, bạn cần thay thế các dòng trên với dữ liệu thực tế.
+            datagridviewSearch.DataSource = hotelTable;
+            datagridviewSearch.Columns["ID"].Visible = false; // Ẩn cột ID
+
+
         }
 
         private void cbbCity_SelectedIndexChanged(object sender, EventArgs e)
@@ -74,6 +89,18 @@ namespace Quan_Ly_Khach_San_2024.All_User_Control
         {
             BookRoom br = new BookRoom();
             br.Show();
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            DetailsHotel ds = new DetailsHotel();
+            ds.Show();
+        }
+
+
+        private void datagridviewSearch_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

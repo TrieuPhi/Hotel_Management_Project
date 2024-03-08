@@ -115,6 +115,12 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetailsHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsHotel.Designer.cs">
+      <DependentUpon>DetailsHotel.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\DashBoard\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
     </Compile>
     <Compile Include="Test.cs">
       <SubType>Form</SubType>
@@ -167,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailsHotel.resx">
+      <DependentUpon>DetailsHotel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DashBoard\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
