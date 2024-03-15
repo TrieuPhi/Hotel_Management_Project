@@ -9,30 +9,39 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Quan_Ly_Khach_San_2024.GUI.DashBoard
+namespace Quan_Ly_Khach_San_2024
 {
     public partial class Dashboard : Form
     {
         public Dashboard()
         {
             InitializeComponent();
-        }
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            btnHome.PerformClick();
+          
         }
 
-        private void btnAddRoom_Click(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
-            /*pnlMoving.Left = btnAddRoom.Left + 50;
-            uC_AddRoom1.Visible = true;
-            uC_AddRoom1.BringToFront();*/
+            uC_Home1.Visible = true;
+            uC_Home1.BringToFront();
         }
 
-        private void Dashboard_Load(object sender, EventArgs e)
+        private void btnSearch_Click(object sender, EventArgs e)
         {
-            /*uC_AddRoom1.Visible = false;
-            btnAddRoom.PerformClick();*/
+            uC_Search1.Visible = true;
+            uC_Search1.BringToFront();
+        }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            uC_Profile1.Visible = true;
+            uC_Profile1.BringToFront();
+        }
+
+        private void btnStatistical_Click(object sender, EventArgs e)
+        {
+            uC_Statistical1.Visible = true;
+            uC_Statistical1.BringToFront();
         }
     }
 }
