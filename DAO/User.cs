@@ -45,5 +45,11 @@ namespace Quan_Ly_Khach_San_2024.DAO
             this.password = password;
             this.usertype = usertype;
         }
+
+        public User(string username, string password)
+        {
+            this.username=username;
+            this.password=password;
+        }
     }
 }

@@ -11,13 +11,15 @@ namespace Quan_Ly_Khach_San_2024.DAL
 {
     public class DBConnection
     {
-        private static string connectionString = Properties.Settings.Default.cnnStr;
-        private SqlConnection conn;
-
+       /* private static string connectionString = Properties.Settings.Default.cnnStr;
+        public SqlConnection conn;
         public DBConnection()
         {
             conn = new SqlConnection(connectionString);
-        }
+        }*/
+        SqlConnection conn = new SqlConnection(Properties.Settings.Default.cnnStr);
+        
+        public static string type;
 
         public void ThucThi(string sqlStr)
         {

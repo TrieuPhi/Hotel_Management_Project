@@ -1,4 +1,5 @@
-﻿using Quan_Ly_Khach_San_2024.DAO;
+﻿using Quan_Ly_Khach_San_2024.DAL;
+using Quan_Ly_Khach_San_2024.DAO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,11 +15,10 @@ namespace Quan_Ly_Khach_San_2024
 {
     public partial class Login : Form
     {
-        private UserDao userDao;
+        SqlConnection conn = new SqlConnection(Properties.Settings.Default.cnnStr);
         public Login()
         {
             InitializeComponent();
-            userDao = new UserDao();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -35,6 +35,46 @@ namespace Quan_Ly_Khach_San_2024
                 lblError.Visible = true;
                 txtPassWord.Clear();
             }*/
+            try
+            {
+                using (conn)
+                {
+                    SqlCommand cmd = new SqlCommand("sp_Role_Login", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    cmd.Parameters.AddWithValue("@username", txtUserName.Text);
+                    cmd.Parameters.AddWithValue("@password", txtPassWord.Text);
+
+                    SqlDataReader rd = cmd.ExecuteReader();
+                    if (rd.HasRows)
+                    {
+                        rd.Read();
+                        if (rd[3].ToString() == "Normal")
+                        {
+                            DBConnection.type = "Normal";
+                        }
+                        else if (rd[3].ToString() == "HotelOwner")
+                        {
+                            DBConnection.type = "HotelOwner";
+                        }
+                        MessageBox.Show("Welcome " + txtUserName.Text);
+
+                        Dashboard d = new Dashboard();
+                        d.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("ERROR");
+                    }
+
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }

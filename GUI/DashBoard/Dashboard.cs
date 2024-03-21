@@ -8,6 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Quan_Ly_Khach_San_2024.DAL;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Controls;
 
 namespace Quan_Ly_Khach_San_2024
 {
@@ -17,9 +21,8 @@ namespace Quan_Ly_Khach_San_2024
         {
             InitializeComponent();
             btnHome.PerformClick();
-          
         }
-
+        #region Ẩn hiện các nút theo loại User đăng nhập
         private void btnHome_Click(object sender, EventArgs e)
         {
             uC_Home1.Visible = true;
@@ -30,6 +33,16 @@ namespace Quan_Ly_Khach_San_2024
         {
             uC_Search1.Visible = true;
             uC_Search1.BringToFront();
+            if (DBConnection.type == "Normal")
+            {
+                uC_Search1.btnAddRoom.Visible = true;
+                uC_Search1.btnAddRS.Visible = false;
+            }
+            else if (DBConnection.type == "HotelOwner")
+            {
+                uC_Search1.btnAddRoom.Visible = false;
+                uC_Search1.btnAddRS.Visible = true;
+            }
         }
 
         private void btnProfile_Click(object sender, EventArgs e)
@@ -42,6 +55,63 @@ namespace Quan_Ly_Khach_San_2024
         {
             uC_Statistical1.Visible = true;
             uC_Statistical1.BringToFront();
+        }
+        #endregion
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            uC_Home1.btnFind.Click += btnFind_Click;// sử dụng btnFind của UC_Home trong dashboard. 
+            uC_Search1.btnAddRoom.Click += btnAddRoom_Click;// sử dụng btnAddRoom của UC_Search trong dashboard. 
+            uC_Search1.btnAddRS.Click += btnAddRS_Click;// sử dụng btnAddSearch của UC_Search trong dashboard. 
+            if (DBConnection.type == "HotelOwner")
+            {
+               //button dashboard
+               btnHome.Visible = true;
+               btnSearch.Visible = true;
+               btnProfile.Visible = true;
+               btnStatistical.Visible = true;
+               btnHelp.Visible = true;
+            }
+            else if (DBConnection.type == "Normal")
+            {
+                //button dashboard
+                btnHome.Visible = true;
+                btnSearch.Visible = true;
+                btnProfile.Visible = true;
+                btnStatistical.Visible = false;
+                btnHelp.Visible = true;
+                
+            }
+        }
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+            uC_Search1.Visible = true;
+            uC_Search1.BringToFront();
+            if (DBConnection.type == "Normal")
+            {
+                uC_Search1.btnAddRoom.Visible = true;
+                uC_Search1.btnAddRS.Visible = false;
+            }
+            else if (DBConnection.type == "HotelOwner")
+            {
+                uC_Search1.btnAddRoom.Visible = false;
+                uC_Search1.btnAddRS.Visible = true;
+            }
+        }
+        private void btnAddRoom_Click(object sender, EventArgs e)
+        {
+            uC_Search1.btnAddRoom.Visible = false;
+        }
+        private void btnAddRS_Click(object sender, EventArgs e)
+        {
+            uC_Search1.btnAddRS.Visible = false;
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            Login f = new Login();
+            f.Show();
+            this.Hide();
         }
     }
 }
