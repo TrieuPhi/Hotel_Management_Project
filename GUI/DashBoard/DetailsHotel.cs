@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Quan_Ly_Khach_San_2024.DAL;
+using Quan_Ly_Khach_San_2024.GUI.All_User_Control;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +14,18 @@ namespace Quan_Ly_Khach_San_2024
 {
     public partial class DetailsHotel : Form
     {
+        DBConnection db = new DBConnection();
         public DetailsHotel()
         {
             InitializeComponent();
+            show_dsroom();
+        }
+        public DetailsHotel(DataRow row)
+        {
+            InitializeComponent();
+            show_dsroom();
+            txtNameHotel.Text = row[0].ToString();
+            txtAddress.Text = row[1].ToString() + ", " + row[2].ToString();
         }
 
         private void btnBookRoom_Click(object sender, EventArgs e)
@@ -23,9 +34,18 @@ namespace Quan_Ly_Khach_San_2024
             br.Show();
         }
 
-        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        public void show_dsroom()
         {
+            string str_sql = "select RoomNumber, Type, Price from Rooms";
+            DataTable dt = db.HienThi(str_sql);
+            foreach (DataRow row in dt.Rows)
+            {
+                UC_Hotel uC_Hotel = new UC_Hotel();
+                flPnDSRoom.Controls.Add(uC_Hotel);
 
+                uC_Hotel.Margin = new Padding(10); // Thiết lập khoảng cách 5 pixels
+
+            }
         }
     }
 }

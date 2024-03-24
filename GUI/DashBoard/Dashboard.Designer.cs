@@ -43,6 +43,8 @@
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel_top = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.label_val = new System.Windows.Forms.Label();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -52,8 +54,6 @@
             this.uC_Search1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Search();
             this.uC_Service1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Service();
             this.uC_Statistical1 = new Quan_Ly_Khach_San_2024.All_User_Control.UC_Statistical();
-            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.PaneUC.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
@@ -115,7 +115,7 @@
             this.label31.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label31.Location = new System.Drawing.Point(48, 229);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(123, 23);
+            this.label31.Size = new System.Drawing.Size(140, 28);
             this.label31.TabIndex = 21;
             this.label31.Text = "Data Engineer!";
             // 
@@ -127,7 +127,7 @@
             this.label32.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label32.Location = new System.Drawing.Point(70, 204);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(85, 25);
+            this.label32.Size = new System.Drawing.Size(97, 30);
             this.label32.TabIndex = 20;
             this.label32.Text = "TrieuPhi";
             // 
@@ -331,6 +331,32 @@
             this.guna2Panel_top.Size = new System.Drawing.Size(1045, 28);
             this.guna2Panel_top.TabIndex = 6;
             // 
+            // guna2ControlBox4
+            // 
+            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox4.BorderColor = System.Drawing.Color.Gainsboro;
+            this.guna2ControlBox4.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox4.HoverState.FillColor = System.Drawing.Color.Red;
+            this.guna2ControlBox4.IconColor = System.Drawing.Color.DimGray;
+            this.guna2ControlBox4.Location = new System.Drawing.Point(1014, 1);
+            this.guna2ControlBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ControlBox4.Name = "guna2ControlBox4";
+            this.guna2ControlBox4.Size = new System.Drawing.Size(31, 23);
+            this.guna2ControlBox4.TabIndex = 6;
+            // 
+            // guna2ControlBox5
+            // 
+            this.guna2ControlBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox5.BorderColor = System.Drawing.Color.Gainsboro;
+            this.guna2ControlBox5.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox5.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox5.IconColor = System.Drawing.Color.DimGray;
+            this.guna2ControlBox5.Location = new System.Drawing.Point(969, 1);
+            this.guna2ControlBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ControlBox5.Name = "guna2ControlBox5";
+            this.guna2ControlBox5.Size = new System.Drawing.Size(31, 23);
+            this.guna2ControlBox5.TabIndex = 7;
+            // 
             // label_val
             // 
             this.label_val.AutoSize = true;
@@ -338,7 +364,7 @@
             this.label_val.Location = new System.Drawing.Point(95, 17);
             this.label_val.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_val.Name = "label_val";
-            this.label_val.Size = new System.Drawing.Size(0, 25);
+            this.label_val.Size = new System.Drawing.Size(0, 30);
             this.label_val.TabIndex = 5;
             // 
             // guna2ControlBox3
@@ -420,35 +446,9 @@
             this.uC_Statistical1.Size = new System.Drawing.Size(1332, 836);
             this.uC_Statistical1.TabIndex = 0;
             // 
-            // guna2ControlBox4
-            // 
-            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox4.BorderColor = System.Drawing.Color.Gainsboro;
-            this.guna2ControlBox4.FillColor = System.Drawing.Color.White;
-            this.guna2ControlBox4.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2ControlBox4.IconColor = System.Drawing.Color.DimGray;
-            this.guna2ControlBox4.Location = new System.Drawing.Point(1014, 1);
-            this.guna2ControlBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2ControlBox4.Name = "guna2ControlBox4";
-            this.guna2ControlBox4.Size = new System.Drawing.Size(31, 23);
-            this.guna2ControlBox4.TabIndex = 6;
-            // 
-            // guna2ControlBox5
-            // 
-            this.guna2ControlBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox5.BorderColor = System.Drawing.Color.Gainsboro;
-            this.guna2ControlBox5.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.guna2ControlBox5.FillColor = System.Drawing.Color.White;
-            this.guna2ControlBox5.IconColor = System.Drawing.Color.DimGray;
-            this.guna2ControlBox5.Location = new System.Drawing.Point(969, 1);
-            this.guna2ControlBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2ControlBox5.Name = "guna2ControlBox5";
-            this.guna2ControlBox5.Size = new System.Drawing.Size(31, 23);
-            this.guna2ControlBox5.TabIndex = 7;
-            // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1248, 711);
