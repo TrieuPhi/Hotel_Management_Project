@@ -53,10 +53,10 @@
             this.btnBookRoom.FillColor = System.Drawing.Color.Purple;
             this.btnBookRoom.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBookRoom.ForeColor = System.Drawing.Color.White;
-            this.btnBookRoom.Location = new System.Drawing.Point(1061, 933);
-            this.btnBookRoom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBookRoom.Location = new System.Drawing.Point(707, 606);
+            this.btnBookRoom.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnBookRoom.Name = "btnBookRoom";
-            this.btnBookRoom.Size = new System.Drawing.Size(206, 68);
+            this.btnBookRoom.Size = new System.Drawing.Size(137, 44);
             this.btnBookRoom.TabIndex = 27;
             this.btnBookRoom.Text = "Edit/Bookings";
             this.btnBookRoom.Click += new System.EventHandler(this.btnBookRoom_Click);
@@ -72,13 +72,12 @@
             this.txtEvalute.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEvalute.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtEvalute.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEvalute.Location = new System.Drawing.Point(830, 238);
-            this.txtEvalute.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtEvalute.Location = new System.Drawing.Point(553, 155);
             this.txtEvalute.Name = "txtEvalute";
             this.txtEvalute.PasswordChar = '\0';
             this.txtEvalute.PlaceholderText = "";
             this.txtEvalute.SelectedText = "";
-            this.txtEvalute.Size = new System.Drawing.Size(300, 55);
+            this.txtEvalute.Size = new System.Drawing.Size(200, 36);
             this.txtEvalute.TabIndex = 33;
             // 
             // txtAddress
@@ -92,23 +91,21 @@
             this.txtAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAddress.Location = new System.Drawing.Point(830, 116);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtAddress.Location = new System.Drawing.Point(553, 75);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
             this.txtAddress.PlaceholderText = "";
             this.txtAddress.SelectedText = "";
-            this.txtAddress.Size = new System.Drawing.Size(300, 55);
+            this.txtAddress.Size = new System.Drawing.Size(200, 36);
             this.txtAddress.TabIndex = 32;
             // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Gainsboro;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(219, 16);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox6.Location = new System.Drawing.Point(146, 10);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(300, 276);
+            this.pictureBox6.Size = new System.Drawing.Size(200, 179);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 28;
             this.pictureBox6.TabStop = false;
@@ -124,23 +121,21 @@
             this.txtNameHotel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNameHotel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNameHotel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNameHotel.Location = new System.Drawing.Point(830, 16);
-            this.txtNameHotel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNameHotel.Location = new System.Drawing.Point(553, 10);
             this.txtNameHotel.Name = "txtNameHotel";
             this.txtNameHotel.PasswordChar = '\0';
             this.txtNameHotel.PlaceholderText = "";
             this.txtNameHotel.SelectedText = "";
-            this.txtNameHotel.Size = new System.Drawing.Size(300, 55);
+            this.txtNameHotel.Size = new System.Drawing.Size(200, 36);
             this.txtNameHotel.TabIndex = 31;
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Gainsboro;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(541, 16);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox5.Location = new System.Drawing.Point(361, 10);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(236, 130);
+            this.pictureBox5.Size = new System.Drawing.Size(157, 84);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 29;
             this.pictureBox5.TabStop = false;
@@ -149,10 +144,9 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Gainsboro;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(541, 171);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4.Location = new System.Drawing.Point(361, 111);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(236, 121);
+            this.pictureBox4.Size = new System.Drawing.Size(157, 79);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 30;
             this.pictureBox4.TabStop = false;
@@ -161,16 +155,17 @@
             // 
             this.flPnDSRoom.AutoScroll = true;
             this.flPnDSRoom.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flPnDSRoom.Location = new System.Drawing.Point(74, 301);
+            this.flPnDSRoom.Location = new System.Drawing.Point(25, 195);
+            this.flPnDSRoom.Margin = new System.Windows.Forms.Padding(2);
             this.flPnDSRoom.Name = "flPnDSRoom";
-            this.flPnDSRoom.Size = new System.Drawing.Size(1193, 627);
+            this.flPnDSRoom.Size = new System.Drawing.Size(858, 409);
             this.flPnDSRoom.TabIndex = 61;
             // 
             // DetailsHotel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1341, 1012);
+            this.ClientSize = new System.Drawing.Size(894, 565);
             this.Controls.Add(this.btnBookRoom);
             this.Controls.Add(this.flPnDSRoom);
             this.Controls.Add(this.txtEvalute);
@@ -179,7 +174,7 @@
             this.Controls.Add(this.txtNameHotel);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "DetailsHotel";
             this.Text = "DetailsHotel";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();

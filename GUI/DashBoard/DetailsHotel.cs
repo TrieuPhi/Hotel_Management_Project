@@ -40,10 +40,16 @@ namespace Quan_Ly_Khach_San_2024
             DataTable dt = db.HienThi(str_sql);
             foreach (DataRow row in dt.Rows)
             {
-                UC_Hotel uC_Hotel = new UC_Hotel();
-                flPnDSRoom.Controls.Add(uC_Hotel);
+                UC_Room uC_Room = new UC_Room();
 
-                uC_Hotel.Margin = new Padding(10); // Thiết lập khoảng cách 5 pixels
+
+                uC_Room.label1.Text = row[0].ToString();
+                uC_Room.label2.Text = row[1].ToString();
+                uC_Room.lblPrice.Text = row[2].ToString();
+
+                flPnDSRoom.Controls.Add(uC_Room);
+
+                uC_Room.Margin = new Padding(10); // Thiết lập khoảng cách 5 pixels
 
             }
         }
